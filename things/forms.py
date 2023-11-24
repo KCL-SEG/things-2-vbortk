@@ -2,7 +2,7 @@
 
 # Create your forms here.
 
-from django import forms, Textarea, NumberInput
+from django import forms
 from .models import Thing
 
 class ThingForm(forms.ModelForm):
